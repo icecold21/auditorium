@@ -5,8 +5,8 @@ class Auditorium::Generator
 
   def hi
     case @language
-    when 'spanish'
-      'hola mundo'
+    when 'bahasa'
+      'halo dunia'
     else
       'hello world'
     end

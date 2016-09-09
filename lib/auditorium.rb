@@ -1,7 +1,7 @@
 class Auditorium
   def self.hi(language = 'english')
-    translator = Translator.new(language)
-    translator.hi
+    generator = Generator.new(language)
+    generator.hi
   end
 end
 
